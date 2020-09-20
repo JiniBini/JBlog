@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="Head">
       <body>
-        <p>여기는 은빈이가 연습할 곳 html 구조 보이지? div, body, p 지금 간단한데 다양하게 변화할 수 있지! </p>
+        <p>여기는 은빈이가 연습할 곳. html이랑 비슷하지만, 코드 보면 function 안에 있는 걸 알 수 있어..!</p>
+        <p><hr color="black" width="90%"/></p>
       </body>
     </div>
   );
