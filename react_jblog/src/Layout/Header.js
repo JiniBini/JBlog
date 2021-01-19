@@ -14,7 +14,7 @@ height="100%"
 src="https://t1.daumcdn.net/cfile/tistory/99CD014B5BD01FA412"
 alt="logo"/>
 </Logo>
-                <Search><h1>React Blog</h1></Search>
+                <Search><h1>JBlog</h1></Search>
             </Element>
         </Container>
       );
@@ -41,7 +41,7 @@ const ShortCut = styled.div`
     width: 100%;
     height: 20px;
     text-align: right;
-    background-color: #a8ff78;
+    background-color: #ffffff;
 `
 
 const Logo = styled.div`
@@ -53,6 +53,8 @@ const Logo = styled.div`
 const Search = styled.div`
     order: 3;
     width: 880px;
-    background-color: #78ffd6;
+    height: 80px;
+    background-color: #000000;
     text-align: center;
+    color: #ffffff;
 `
