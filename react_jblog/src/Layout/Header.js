@@ -1,26 +1,27 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import logo from './img/simple_logo.png';
 
 class Header extends Component {
     render() {
-      return (
-        <Container>
-            <Element>
-                <ShortCut>로그인/회원가입</ShortCut>
-                <Logo>
-<img
-width="100%"
-height="100%"
-src="https://t1.daumcdn.net/cfile/tistory/99CD014B5BD01FA412"
-alt="logo"/>
-</Logo>
-                <Search><h1>JBlog</h1></Search>
-            </Element>
-        </Container>
-      );
+        return (
+            <Container>
+                <Element>
+                    <ShortCut>로그인/회원가입</ShortCut>
+                    <Logo>
+                        <img
+                            width="100%"
+                            height="100%"
+                            src={logo}
+                            alt="logo" />
+                    </Logo>
+                    <Search><h1>JBlog</h1></Search>
+                </Element>
+            </Container>
+        );
     }
-  }
-  
+}
+
 export default Header;
 
 const Container = styled.div`
@@ -39,21 +40,23 @@ const Element = styled.div`
 const ShortCut = styled.div`
     order: 1;
     width: 100%;
-    height: 20px;
+    height: 20%;
     text-align: right;
     background-color: #ffffff;
+    margin-bottom: 5px;
+
 `
 
 const Logo = styled.div`
     order: 2;
     width: 200px;
-    height: 80px;
+    height: 75%;
 `
 
 const Search = styled.div`
     order: 3;
     width: 880px;
-    height: 80px;
+    height: 75%;
     background-color: #000000;
     text-align: center;
     color: #ffffff;

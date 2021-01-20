@@ -35,6 +35,7 @@ const NavList = styled.ul`
 const NavItem = styled.li`
     width: 80px;
     margin-left: 18px;
+    margin-right: 18px;
     margin-top: 5px;
     display: flex;
 `
