@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import logo from './img/simple_logo.png';
 
 class Header extends Component {
@@ -7,7 +8,7 @@ class Header extends Component {
         return (
             <Container>
                 <Element>
-                    <ShortCut>로그인/회원가입</ShortCut>
+                    <ShortCut><Link to='/login'>로그인</Link>/회원가입</ShortCut>
                     <Logo>
                         <img
                             width="100%"
