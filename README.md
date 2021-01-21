@@ -11,3 +11,8 @@ add Header.js, Navigation.js
 
 1/20
 modify main page header, Navitem
+
+## 다음 목표 
+- 로그인 구현하기(구글 로그인 이용)
+- 게시판 페이지 형태 구성하기
+
