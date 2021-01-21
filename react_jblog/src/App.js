@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Header from './Layout/Header';
 import Navigation from './Layout/Navigation';
+import Footer from './Layout/Footer';
 import Router from './Routes/Router';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <Content>
           <Router />
         </Content>
+        <Footer></Footer>
       </Layout>
     );
   }
