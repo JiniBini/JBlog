@@ -6,9 +6,19 @@ import logo from './img/simple_logo.png';
 class Footer extends Component {
     render() {
         return (
-            <div>foot</div>
+            <Foot>@JiniBini</Foot>
         );
     }
 }
+
+const Foot = styled.div`
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 50px;
+    text-align: center;
+`
+
+
 
 export default Footer;
