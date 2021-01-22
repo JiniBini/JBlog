@@ -19,6 +19,4 @@ const Foot = styled.div`
     text-align: center;
 `
 
-
-
 export default Footer;
