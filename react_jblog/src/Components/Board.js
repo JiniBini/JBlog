@@ -8,7 +8,10 @@ class Board extends Component {
       <Layout>
         <Section>
           <h1>Board </h1>
-
+          <h3>free</h3>
+        </Section>
+        <Section>
+          <h1>Board2 </h1>
           <h3>free</h3>
         </Section>
       </Layout>
@@ -18,6 +21,7 @@ class Board extends Component {
 
 
 const Layout = styled.div`
+  margin-left: 15px;  
   width: 880px;
   height: 75%;
   background-color: #000000;
@@ -27,7 +31,6 @@ const Layout = styled.div`
 const Section = styled.div`
   width: 100%;
   border: 1px solid #d1d8e4;
-  margin-left: 15px;
 `
 
 export default Board;
