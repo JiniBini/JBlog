@@ -26,7 +26,6 @@ class Header extends Component {
 export default Header;
 
 const Container = styled.div`
-    background-color: #808080;
     width: 100%;
     height: 12%;
     border-bottom: 1px solid #d1d8e4;
