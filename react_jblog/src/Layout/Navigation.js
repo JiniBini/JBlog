@@ -22,7 +22,7 @@ export default Navigation;
 
 const Nav = styled.div`
     width: 100%;
-    height: 30px;
+    height: 4%;
     text-align: center;
     border-bottom: 1px solid #d1d8e4;
 `

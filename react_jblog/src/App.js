@@ -4,6 +4,10 @@ import Header from './Layout/Header';
 import Navigation from './Layout/Navigation';
 import Footer from './Layout/Footer';
 import Router from './Routes/Router';
+import Sidebar from './Layout/Sidebar';
+import './fonts.css';
+
+
 
 class App extends Component {
   render() {
@@ -12,6 +16,7 @@ class App extends Component {
         <Header />
         <Navigation />
         <Content>
+          <Sidebar></Sidebar>
           <Router />
         </Content>
         <Footer></Footer>
@@ -21,13 +26,16 @@ class App extends Component {
 }
 
 const Layout = styled.div`
-  margin: 0 auto;
-  display: flex;
   width: 100%;
-  flex-flow: row wrap;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
 `
 const Content = styled.div`
-  margin: 0 auto;
+  width: 80%;
+  height: 80%;
+  padding: 5px;
+  display: flex;
+  flew-flow: column wrap;
 `
 
 export default App;

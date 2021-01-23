@@ -4,7 +4,6 @@ import styled from 'styled-components';
 class Board extends Component {
 
   render() {
-
     return (
       <Layout>
         <Section>
@@ -19,14 +18,16 @@ class Board extends Component {
 
 
 const Layout = styled.div`
-  margin: 0 auto;
-  display: flex;
-  width: 100%;
-  flex-flow: row wrap;
+  width: 880px;
+  height: 75%;
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
 `
 const Section = styled.div`
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  border: 1px solid #d1d8e4;
+  margin-left: 15px;
 `
 
 export default Board;

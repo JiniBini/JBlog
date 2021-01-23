@@ -26,8 +26,11 @@ class Header extends Component {
 export default Header;
 
 const Container = styled.div`
+    background-color: #808080;
     width: 100%;
+    height: 12%;
     border-bottom: 1px solid #d1d8e4;
+    margin : 0px 3px;
 `
 
 const Element = styled.div`
@@ -41,23 +44,23 @@ const Element = styled.div`
 const ShortCut = styled.div`
     order: 1;
     width: 100%;
-    height: 20%;
+    height: 15%;
     text-align: right;
     background-color: #ffffff;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 
 `
 
 const Logo = styled.div`
     order: 2;
     width: 200px;
-    height: 75%;
+    height: 60%;
 `
 
 const Search = styled.div`
     order: 3;
     width: 880px;
-    height: 75%;
+    height: 60%;
     background-color: #000000;
     text-align: center;
     color: #ffffff;
