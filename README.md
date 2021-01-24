@@ -18,6 +18,10 @@ sidebar, board.js 수정
 footer.js git hyperlink
 font apply
 
+1/24 
+구조 수정
+MyPage.js 수정
+
 
 ## 다음 목표 
 - 로그인 구현하기(구글 로그인 이용)
