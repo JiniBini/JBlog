@@ -5,13 +5,25 @@ class MyBoard extends Component {
   render() {
 
       return (
-        <div>
-          <h1>MyBoard</h1>
-          
-          <h3>미완성 board</h3>
-        </div>
+        <Layout>
+        <Section>
+          <h1>My Board</h1>
+          <p>Board1</p>
+        </Section>
+      </Layout>
       );
     }
   }
+
+const Layout = styled.div`
+  margin-left: 15px;  
+  width: 880px;
+  height: 75%;
+  text-align: center;
+`
+const Section = styled.div`
+  width: 100%;
+  border: 1px solid #d1d8e4;
+`
   
 export default MyBoard;
