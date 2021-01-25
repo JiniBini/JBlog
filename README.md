@@ -22,6 +22,9 @@ font apply
 구조 수정
 MyPage.js 수정
 
+1/25
+MyBoard.js 수정
+
 
 ## 다음 목표 
 - 로그인 구현하기(구글 로그인 이용)
