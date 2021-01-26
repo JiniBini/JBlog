@@ -25,6 +25,10 @@ MyPage.js 수정
 1/25
 MyBoard.js 수정
 
+1/26
+Component 기본 구조 fix
+Sidebar.js fix
+
 
 ## 다음 목표 
 - 로그인 구현하기(구글 로그인 이용)
