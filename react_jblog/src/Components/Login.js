@@ -11,6 +11,7 @@ class Login extends Component {
           <h1>LoginPage</h1>
           <p>Login : <input></input></p>
           <p>PW : <input type="password"></input></p>
+          <p>비밀번호 찾기 / 회원가입</p>
         </Section>
       </Layout>
     );
