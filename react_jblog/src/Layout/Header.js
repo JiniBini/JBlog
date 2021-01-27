@@ -16,7 +16,7 @@ class Header extends Component {
                             src={logo}
                             alt="logo" />
                     </Logo>
-                    <Search><h1>JBlog</h1></Search>
+                    <Search><Link to='/'><h1>JBlog</h1></Link></Search>
                 </Element>
             </Container>
         );
