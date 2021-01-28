@@ -24,9 +24,7 @@ const Layout = styled.div`
   margin-left: 15px;  
   width: 880px;
   height: 75%;
-  background-color: #000000;
   text-align: center;
-  color: #ffffff;
 `
 const Section = styled.div`
   width: 100%;
