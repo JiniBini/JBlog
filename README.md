@@ -7,11 +7,6 @@ styled-components: css 대신 styled-components 사용
 (참조 : https://www.styled-components.com/)
 
 
-## 다음 목표 
-- 로그인 구현하기(구글 로그인 이용)
-- 게시판 페이지 형태 구성하기
-
-
 ## 현재 페이지 구조
 기본 구조
 Header.js + Navigation.js + Sidebar.js + Footer.js
@@ -26,4 +21,9 @@ Header.js + Navigation.js + Sidebar.js + Footer.js
 Sidemenu 구성 
 
 #### Footer.js
-출처
+@JiniBini _ Github로 연결
+
+
+## 다음 목표 
+- 로그인 구현 -> 소셜 로그인 구현 
+- 게시판 페이지 형태 구성하기
