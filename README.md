@@ -6,6 +6,13 @@ Make our own Blog
 styled-components: css 대신 styled-components 사용
 (참조 : https://www.styled-components.com/)
 
+## npm install
+- npm install --save styled-components
+for style components
+
+- npm install react-google-login
+for google login service
+
 
 ## 현재 페이지 구조
 기본 구조
@@ -24,6 +31,6 @@ Sidemenu 구성
 @JiniBini _ Github로 연결
 
 
-## 다음 목표 
-- 로그인 구현 -> 소셜 로그인 구현 
+## 1월 목표
+- 로그인 구현 -> 소셜 로그인 구현 진행중
 - 게시판 페이지 형태 구성하기
