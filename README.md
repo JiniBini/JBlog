@@ -1,9 +1,13 @@
 # JBlog
+---
+
 Project React Web page 
 
 Make our own Blog
 
-styled-components: css 대신 styled-components 사용
+---
+
+- styled-components: css 대신 styled-components 사용
 (참조 : https://www.styled-components.com/)
 
 ## npm install
@@ -34,3 +38,6 @@ Sidemenu 구성
 ## 1월 목표
 - 로그인 구현 -> 소셜 로그인 구현 진행중
 - 게시판 페이지 형태 구성하기
+
+## 현재 블로그 형태
+![image](https://user-images.githubusercontent.com/49184115/107045738-364de100-6809-11eb-828a-3ecf78475a82.png)
